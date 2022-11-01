@@ -3,7 +3,7 @@ package ru.netology.sqr;
 public class SQRService {
 
 
-    public int search(int expected, int min, int max) {
+    public int search( int min, int max) {
         int number = 0;
         for (int i = 10; i <=99; i++){
             if (i * i >= min) {
@@ -14,4 +14,5 @@ public class SQRService {
         }
         return number;
     }
+
 }
